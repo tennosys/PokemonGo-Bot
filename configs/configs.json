@@ -1,0 +1,37 @@
+{
+    "auth_service": "ptc",
+    "username": "tennosys",
+    "password": "gazerock69",
+    "location": "-6.130866,106.8885057",
+    "gmapkey": "AIzaSyBj5kc2E8BRRT6nHUWz86s87CDN6g3VWEo",
+    "max_steps": 5,
+    "mode": "all",
+    "walk": 4.16,
+    "action_wait_min": 1,
+    "action_wait_max": 4,
+    "debug": false,
+    "test": false,
+    "location_cache": true,
+    "distance_unit": "km",
+    "reconnecting_timeout": 15,
+    "item_filter": {
+      "1": { "keep" : 100 },
+      "101": { "keep" : 10 },
+      "102": { "keep" : 30 },
+      "103": { "keep" : 30 },
+      "201": { "keep" : 30 },
+      "701": { "keep" : 100 }
+    },
+    "evolve_all": "NONE",
+    "evolve_speed": 20,
+    "cp_min": 300,
+    "use_lucky_egg": false,
+    "evolve_captured": false,
+    "release_pokemon": true,
+    "catch": {
+      "any": {"catch_above_cp": 0, "catch_above_iv": 0, "logic": "or"}
+    },
+    "release": {
+      "any": {"release_below_cp": 0, "release_below_iv": 0, "logic": "or"}
+    }
+}
